@@ -4,7 +4,7 @@ namespace ButchersGames
 {
     public class Level : MonoBehaviour
     {
-        [SerializeField] private Transform playerSpawnPoint;
+        public Transform playerSpawnPoint;
 
 #if UNITY_EDITOR
     private void OnDrawGizmos()
